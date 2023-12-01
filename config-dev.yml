@@ -3,7 +3,7 @@ config:
 
 eureka:
   instance:
-    instance-id: configService
+    instance-id: configClient
     prefer-ip-address: true
   client:
     #表示是否将自己注册进EurekaServer 默认为true
