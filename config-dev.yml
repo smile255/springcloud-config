@@ -1,18 +1,5 @@
-server:
-  port: 3344
 config:
   info: 123456
-spring:
-  application:
-    name: config-center
-  cloud:
-    config:
-      server:
-        git:
-          uri: git@github.com:smile255/springcloud-config.git
-          search-paths:
-          - springcloud-config
-      label: master
 
 eureka:
   instance:
